@@ -27,7 +27,7 @@ def unauthorized():
 /auth/register -> POST /auth
 /auth/validate -> GET /auth/{token}
 /auth/exhaust -> DELETE /auth/{token}
-/auth/invoke -> POST /auth/{token}/decrement/
+/auth/invoke -> POST /auth/{token}/decrement
 
 """
 

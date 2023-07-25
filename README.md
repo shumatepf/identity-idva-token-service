@@ -42,14 +42,13 @@ To set a custom secret key, use the following environment variable: `SECRET_KEY`
 
 The project can be ran locally with:
 ```shell
-python manage.py run
+gunicorn auth.main:app
 ```
 
 ### Running the application
 After completing [development setup](#development-setup) application locally with:
 ```shell
 python -m pytest
-python manage.py test
 ```
 
 ### API Endpoints
